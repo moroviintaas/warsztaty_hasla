@@ -9,6 +9,7 @@ EXPOSE 8888
 
 
 COPY notebooks /home/labuser/notebooks
+COPY hashes /home/labuser/hashes
 RUN chown labuser -R /home/labuser
 USER labuser
 WORKDIR /home/labuser
