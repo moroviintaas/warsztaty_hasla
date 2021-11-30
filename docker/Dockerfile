@@ -10,6 +10,13 @@ EXPOSE 8888
 
 COPY notebooks /home/labuser/notebooks
 COPY hashes /home/labuser/hashes
+
+RUN apt install -y fonts-firacode wget
+RUN wget  https://starship.rs/install.sh && chmod +x install.sh && ./install.sh --yes
+COPY starship.toml /home/labuser/.config/starship.toml
+RUN echo 'eval "$(starship init bash)"' >> /home/labuser/.bashrc
+
+
 RUN chown labuser -R /home/labuser
 USER labuser
 WORKDIR /home/labuser
