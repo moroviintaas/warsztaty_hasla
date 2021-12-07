@@ -219,3 +219,12 @@ Nie wszystkie powyższe kombinacje ze sobą dobrze współdziałają w mojej opi
 
 
 \* Moja osobista preferencja
+
+___
+## 4. Materiały
+
++ [lista słabych haseł](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials​)
++ [hashcat](https://hashcat.net/hashcat/)
++ [Colab](https://colab.research.google.com)
++ [Docker](https://www.docker.com)
++ [Conda](https://docs.conda.io/en/latest/)
