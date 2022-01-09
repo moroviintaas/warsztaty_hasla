@@ -1,0 +1,9 @@
+bob
+boB
+bOb
+bOB
+Bob
+BoB
+BOb
+BOB
+

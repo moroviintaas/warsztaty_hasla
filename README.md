@@ -3,7 +3,7 @@ Warsztaty z tematyki kryptologii dla licealistów, zagadnienie dotyczące haseł
 ___
 
 
-## 1. Juyter - konfiguracja
+## 1. Jupyter - konfiguracja
 Jupyter umożliwia prezentowanie kodów źródłowych (między innymi w języky Python) i ich wykonywanie po fragmencie. Jest wygodniejszy w demonstorwaniu kodu sekwencyjnego w małych kawałkach.
 
 Możemy uruchomić Jupyter na następujące sposoby:
