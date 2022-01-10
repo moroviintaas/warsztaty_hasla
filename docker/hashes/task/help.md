@@ -13,3 +13,8 @@ hashcat -a 6 -m 1800 bob.hash boblist.txt  ?a?a?a?a
 
 ## Uwaga
 To nie są rozwiązania zadań, ale pomoce i pomysły, które pewnie należy przemyśleć i zmodyfikować
+
+
+## Wskazówki
+Jeśli ktoś będzie chciał rozwiązać zadanie i będzie miał problem to piscie na discord:
+_moroviintaas#7749_
