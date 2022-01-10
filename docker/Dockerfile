@@ -1,4 +1,5 @@
-FROM debian:bullseye
+FROM ubuntu:bionic
+ARG DEBIAN_FRONTEND=noninteractive
 RUN apt update
 RUN apt install -y python3  python3-pip python3-dev hashcat procps vim nano less curl
 
@@ -8,11 +9,11 @@ EXPOSE 8888
 
 
 
-#COPY notebooks /home/labuser/notebooks
-#COPY hashes /home/labuser/hashes
+COPY notebooks /home/labuser/notebooks
+COPY hashes /home/labuser/hashes
 
-VOLUME /home/labuser/notebooks
-VOLUME /home/labuser/hashes
+#VOLUME /home/labuser/notebooks
+#VOLUME /home/labuser/hashes
 
 RUN apt install -y fonts-firacode wget
 RUN wget  https://starship.rs/install.sh && chmod +x install.sh && ./install.sh --yes
